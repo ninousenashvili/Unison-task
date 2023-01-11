@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- top Navigation  -->
+    <header>
+      <!-- mobile navigation -->
+      <div class="mobile-header">
+        <a href="index.html">
+<img class="mobile-logo" src="images/unisonLogo.svg" alt="unisonLogo" ></a>
+
+  <i class="fa-solid fa-bars"></i>
+</div>
+<div class="burger-navigation">
+  <div class="top-burger">
+    <img class="burger-logo"
+    src="images/Group 2.svg">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+  
+  <div class="bottom-ul-burger">
+    <a class="bottom-li "> <i class="fa-regular fa-user person bottom-li-person"></i></a>
+    <a class="bottom-li bottom-li-burger">ჩემი კაბინეტი</a>
+    <div class="sos-block sos-burger-block">
+        <button class="dropdown-sos burger-sos">SOS</button>
+        <div class="sos-div sos-div-burger" style="display: none;">
+          <i class="fa-solid fa-xmark fa-xmark-sos"></i>
+        <div class="sos-ul-burger">
+          <h4 class="sos-title">sos</h4>
+          <hr width="44px" color="white"> 
+        <a class=" sos-burger-a" href="#">მოხდა სადაზღვეო შემთხვევა </a>
+        <hr width="44px" color="white"> 
+        <a class="sos-burger-a" href="#"> შემთხვევის სტატუსის შემოწმება</a>
+         </div>
+        </div>
+    </div>
+    
+</div>
+<div class="nav-item-burger">
+ 
+  <div class="dropbtn-div">
+    <button class="dropbtn dropbtn-burger dropbtn-burger-1 ">  <i class="fa-regular fa-circle-user burger-icons"></i> ფიზიკური პირებისთვის </button> 
+    <i class="fa-sharp fa-solid fa-angle-right"></i>
+  </div>
+  <div class="dropbtn-div">
+  <button class="dropbtn dropbtn-burger">  <i class="fa-regular fa-circle-user burger-icons"></i>იურიდიული პირებისთვის </button>
+    <i class="fa-sharp fa-solid fa-angle-right"></i>
+  </div>
+  <div class="dropbtn-div">
+  <button class="dropbtn dropbtn-burger" > <i class="fa-regular fa-circle-user burger-icons"></i> სავალდებულო დაზღვევა </a></button>
+  <i class="fa-sharp fa-solid fa-angle-right"></i>
+  </div>
+</div>
+<div class="dropdown-content dropdown-content-burger">
+  <i class="fa-solid fa-xmark fa-mark-burger "></i>
+  <a href="#" class="dropdown-a "
+    ><i class="fa-regular fa-house dropdown-icon-burger"></i>ქონების დაზღვევა</a
+  >
+  <a href="#" class="dropdown-a"
+  ><i class="fa-regular fa-shield-plus  dropdown-icon-burger"></i>ინდივიდუალური ჯანმრთელობის დაზღვევა</a
+>
+  <a href="#" class="dropdown-a"
+    ><i class="fa-sharp fa-solid fa-car dropdown-icon-burger"></i
+    >ავტოდაზღვევა-პაკეტები</a
+  >
+  <a href="#" class="dropdown-a"
+    ><i class="fa-regular fa-user dropdown-icon-burger"></i>მძღოლის
+    პასუხისმგებლობის დაზღვევა</a
+  >
+  <a href="#" class="dropdown-a"
+    ><i class="fa-solid fa-plane-departure dropdown-icon-burger"></i
+    >სამოგზაურო დაზღვევა</a
+  >
+</div>
+<button class="agent-burger">
+  <img
+              src="images/Path 236.svg"
+              alt="phone icon"
+              height="30.13"
+              width="30.13"
+            />აგენტთან <br> დაკავშირება</button>
+<div class="burger-nav">
+  <a class="burger-a">ჩვენს შესახებ</a>
+  <a class="burger-a">სიახლეები</a>
+  <a class="burger-a">პარტნიორები</a>
+  <a class="burger-a">კონტაქტი</a>
+</div>
+<div class="burger-contact">
+<div class="language-burger">
+  <div class="red-language-symbol"></div>
+  <a class="burger-a burger-a-red">ქართული</a>
+  <a class="burger-a">English</a>
+  <a class="burger-a">Русский</a>
+</div>
+<div class="burger-contact-number">
+  <h5>ცხელი ხაზი</h5>
+  <a class="phone-number-burger"><i class="fa-thin fa-circle-phone"></i> 2 991 991</a>
+</div>
+
+</div>
+</div>
+
+
+    <!-- Navigation -->
+      <div class="header">
+        <div class="top-header">
+          <div class="about-us-left">
+            <ul class="nav-ul">
+              <li class="nav-li">
+                <a class="nav-li" href="index.html">მთავარი</a>
+              </li>
+              <li class="nav-li">ჩვენს შესახებ</li>
+              <li class="nav-li">სიახლეები</li>
+              <li class="nav-li">პარტნიორები</li>
+              <li class="nav-li">კონტაქტი</li>
+            </ul>
+
+            <div class="sos-block">
+              <button class="dropdown-sos">SOS</button>
+              <div class="sos-div">
+                <div class="sos-ul">
+                  <a class="sos-a" href="#">მოხდა სადაზღვეო შემთხვევა </a>
+                  <a class="sos-a" href="#"> შემთხვევის სტატუსის შემოწმება</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-us-right">
+            <div class="language-block">
+              <button class="language-dropdown">
+                <img
+                  class="Georgian flag"
+                  alt="flag"
+                  src="Images/Group 35.svg"
+                />ქართული <i class="fa-solid fa-chevron-down rotate-down"></i>
+              </button>
+              <div class="triangle">
+                <ul class="language-ul">
+                  <li class="language-dropdown language-li">
+                    <img
+                      class="German flag"
+                      alt="flag"
+                      src="Images/Group 317.png"
+                    />Deutsch
+                  </li>
+                  <li class="language-dropdown language-li">
+                    <img
+                      class="United Kingdom flag"
+                      alt="flag"
+                      src="Images/Group 318.png"
+                    />
+                    English
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="phone-block">
+              <a class="phone-number" href="tel:0322991991"
+                >ცხელი ხაზი:<img
+                  class="phone"
+                  src="Images/phone.svg"
+                  height="16px"
+                  alt="phone icon"
+                />
+                0322991991</a
+              >
+              <span class="phone-line"></span>
+            </div>
+          </div>
+
+          <!-- position fixed "Agent" button -->
+
+          <div class="agent">
+            <img
+              src="images/Path 236.svg"
+              alt="phone icon"
+              height="30.13"
+              width="30.13"
+            />
+            <span class="span-agent">აგენტთან დაკავშირება</span>
+          </div>
+        </div>
+
+        <!-- bottom navigation -->
+        <div class="bottom-header">
+          <div class="bottom-ul">
+            <div class="logo-item">
+              <a href="index.html">
+                <img class="logo" src="images/Logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">ფიზიკური პირებისთვის</button>
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-a"
+                    ><i class="fa-regular fa-shield-plus"></i>ინდივიდუალური
+                    ჯანმრთელობის დაზღვევა</a
+                  >
+                  <a href="#" class="dropdown-a"
+                    ><i class="fa-sharp fa-solid fa-car dropdown-icon"></i
+                    >ავტოდაზღვევა-პაკეტები</a
+                  >
+                  <a href="#" class="dropdown-a"
+                    ><i class="fa-regular fa-user dropdown-icon"></i>მძღოლის
+                    პასუხისმგებლობის დაზღვევა</a
+                  >
+                  <a href="#" class="dropdown-a"
+                    ><i class="fa-solid fa-plane-departure dropdown-icon"></i
+                    >სამოგზაურო დაზღვევა</a
+                  >
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">იურიდიული პირებისთვის</button>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">სავალდებულო დაზღვევა</button>
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-a"
+                    ><i class="fa-solid fa-bolt-lightning dropdown-icon"></i
+                    >უბედური შემთხვევისგან დაზღვევა</a
+                  >
+                  <a href="#" class="dropdown-a"
+                    ><i
+                      class="fa-sharp fa-solid fa-graduation-cap dropdown-icon"
+                    ></i
+                    >უცხოელი სტუდენტების სავალდებულო დაზღვევა</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-right-ul">
+            <a class="bottom-li"> <i class="fa-regular fa-user person"></i></a>
+            <a class="bottom-li">ჩემი კაბინეტი</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <div class="line"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              class="slider-img"
+              src="images/shutterstock_627788162.png"
+              alt="sofa"
+            />
+          </div>
+
+          <div class="swiper-slide">
+            <!-- <div class="slider-title"></div> -->
+
+            <img
+              class="slider-img"
+              src="images/shutterstock_627788162.png"
+              alt="sofa"
+            />
+          </div>
+          <div class="swiper-slide">
+            <!-- <div class="slider-title"></div> -->
+            <img
+              class="slider-img"
+              src="images/shutterstock_627788162.png"
+              alt="sofa"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-previous">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div class="swiper-button-nextt">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+      <div class="red-shape-div">
+        <div class="red-min-div">
+          <img src="images/Image 42.png" class="red-shape" alt="shape" />
+          <h2 class="red-shape-title">შეიძინე ონლაინ</h2>
+          <i class="fa-solid fa-chevron-down red-arrow"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Body content -->
+
+    <div class="container">
+      <section class="section1">
+        
+
+        <!-- Insurance Blocks  -->
+        <div class="top-block">
+          <div class="top-block-1">
+            <i class="fa-sharp fa-solid fa-house-chimney-window"></i>
+            <h4 class="top-block-title">ქონების დაზღვევა</h4>
+          </div>
+
+          <div class="top-block-1">
+            <i class="fa-duotone fa-shield-plus"></i>
+            <h4 class="top-block-title">ჯანმრთელობის დაზღვევა</h4>
+          </div>
+          <div class="top-block-1">
+            <i class="fa-sharp fa-solid fa-car"></i>
+            <h4 class="top-block-title">ავტოდაზღვევა</h4>
+          </div>
+
+          <div class="top-block-1">
+            <i class="fa-sharp fa-solid fa-user-check"></i>
+            <h4 class="top-block-title">პასუხისმგებლობის დაზღვევა</h4>
+          </div>
+
+          <div class="top-block-1">
+            <i class="fa-sharp fa-solid fa-plane-departure"></i>
+            <h4 class="top-block-title">სამოგზაურო დაზღვევა</h4>
+          </div>
+        
+        <div class="top-block-1 mobile-shopping">
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+          <h4 class="top-block-title">შეიძინე ონლაინ</h4>
+        </div>
+      </div>
+      
+      </section>
+
+      <!-- Priorities  -->
+
+      <section class="section2">
+        <div class="mobile-sos-div">
+          
+        <button class="mobile-sos-btn">SOS</button>
+        
+        </div>
+        <div class="mobile-line-div"> <span class="mobile-line"></span></div>
+
+        <h2 class="section-title">უპირატესობები</h2>
+        <div class="bottom-block">
+          <div class="bottom-div">
+            <img src="images/people_outline_black_24dp.png" alt="people icon" />
+            <p class="bottom-title">მომხმარებლის კმაყოფილების 96%-იანი დონე</p>
+          </div>
+          <div class="bottom-div">
+            <img src="images/hotel_class_black_24dp.png" alt="star" />
+            <p class="bottom-title">მაღალრეიტინგული გადამზღვევი კომპანიები</p>
+          </div>
+          <div class="bottom-div">
+            <img src="images/touch_app_black_24dp.png" alt="click finger" />
+            <p class="bottom-title">თანამედროვე ელექტრონული სერვისები</p>
+          </div>
+          <div class="bottom-div">
+            <img src="images/timer_black_24dp.png" alt="clock" />
+            <p class="bottom-title">ზარალის დარეგულირების უმოკლესი ვადები</p>
+          </div>
+          <div class="bottom-div">
+            <img src="images/people_outline_black_24dp.png" alt="people" />
+            <p class="bottom-title">კორპორატიული კლიენტების ფართო სპექტრი</p>
+          </div>
+          <div class="bottom-div">
+            <img src="images/hotel_class_black_24dp.png" alt="stars" />
+            <p class="bottom-title">
+              გუნდის პროფესიონალიზმი და მრავალწლიანი გამოცდილება
+            </p>
+          </div>
+        </div>
+        
+        <div class="mobile-line-div"> <span class="mobile-line"></span></div>
+
+        <!--  News blocks  -->
+
+        <h2 class="section-title">სიახლეები</h2>
+        <div class="bottom-divs">
+          <div class="news-divs">
+            <img class="news-img" alt="house" src="images/Rectangle 24.png" />
+            <p class="news-p">ქალაქგარეთ ცხოვრების 10 გავრცელებული მითი</p>
+            <span class="news-span">6 ნოემბერი</span>
+          </div>
+          <div class="news-divs">
+            <img class="news-img" alt="food" src="images/Rectangle 27.png" />
+            <p class="news-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+            <span class="news-span">28 ოქტომბერი</span>
+          </div>
+          <div class="news-divs">
+            <img class="news-img" alt="car" src="images/Rectangle 29.png" />
+            <p class="news-p">ავტომობილის სალონის მოვლის თანამედროვე ხერხები</p>
+            <span class="news-span">14 ოქტომბერი</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--  fotter block -->
+
+    <footer class="footer">
+      <div class="top-footer">
+        <div class="footer-1">
+          <img class="footer-logo" src="images/unisonLogo.svg" alt="logo" />
+          <ul>
+            <li>
+              <a class="footer-li" href="#" target="_blank">ჩვენს შესახებ</a>
+            </li>
+            <li><a class="footer-li" href="#" target="_blank">კარიერა </a></li>
+            <li>
+              <a class="footer-li" href="#" target="_blank">პარტნიორები</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-2">
+          <ul>
+            <li><a class="footer-li bold-li"> ინფორმცია</a></li>
+            <li><a class="footer-li" href="#" target="_blank">სიახლეები</a></li>
+            <li>
+              <a class="footer-li" href="#" target="_blank"
+                >საინფორმაციო ფურცელი</a
+              >
+            </li>
+            <li>
+              <a class="footer-li" href="#" target="_blank"
+                >სამედიცინო პროვაიდერი</a
+              >
+            </li>
+            <li>
+              <a class="footer-li" href="#" target="_blank">ხელშეკრულებები</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-3">
+          <ul>
+            <li class="footer-li bold-li">დახმარება</li>
+            <li><a class="footer-li" href="#" target="_blank">კონტაქტი </a></li>
+            <li>
+              <a class="footer-li" href="#" target="_blank">მომხმარებლის ხმა</a>
+            </li>
+            <li>
+              <a class="footer-li" href="#" target="_blank"
+                >ხშირად დასმული კითხვები</a
+              >
+            </li>
+            <li>
+              <a class="footer-li" href="#" target="_blank">მონაცემთა დაცვა</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-4">
+          <ul>
+            <li class="footer-li">ქსელები</li>
+            <li>
+              <a
+                class="footer-li"
+                href="https://www.facebook.com/unison.ge"
+                target="_blank"
+                ><img
+                  src="images/f_logo_RGB-Blue_72.png"
+                  alt="fb-logo"
+                />Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-li"
+                href="https://www.instagram.com/unison_insurance_/?igshid=YmMyMTA2M2Y%3D"
+                target="_blank"
+                ><img
+                  src="images/Instagram_Glyph_Gradient_RGB.png"
+                  alt="instagram-logo"
+                />Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-li"
+                href="https://www.linkedin.com/company/%E1%83%A3%E1%83%9C%E1%83%98%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%98/"
+                target="_blank"
+                ><img src="images/linkdin.png" alt="linkdin-logo" />Linkdin</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-li"
+                href="https://www.youtube.com/channel/UCR_zZ9WHAPc1KfAmSt1TQSQ/featured"
+                target="_blank"
+                ><img
+                  src="images/yt_icon_rgb.png"
+                  alt="youtube-logo"
+                />Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="footer-5">
+          <div class="footer-logos">
+            <img
+              src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+              alt="app-store"
+            />
+            <img src="images/google-play-badge.png" alt="google-store" />
+          </div>
+          <li class="footer-li last-li">
+            უნისონი & copy ყველა უფლება დაცულია, 2021
+          </li>
+        </div>
+      </div>
+        <div class="mobile-footer">
+          <img class="footer-logo" src="images/unisonLogo.svg" alt="logo" />
+
+            <ul class="mobile-footer-div">
+              <li>
+                <a class="footer-li" href="#" target="_blank">ჩვენს შესახებ</a>
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank">კარიერა</a>
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank">პარტნიორები</a>
+              </li>
+             
+            </ul>
+       
+            <a class="footer-li bold-li"> ინფორმცია</a></li>
+            
+            <ul class="mobile-footer-div"> 
+              <li>
+                <a class="footer-li" href="#" target="_blank">სიახლეები</a>
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank"
+                  >საინფორმაციო ფურცელი</a
+                >
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank">ხელშეკრულებები</a>
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank"
+                  >სამედიცინო პროვაიდერი</a
+                >
+              </li>
+            </ul>
+            <li class="footer-li bold-li">დახმარება</li>
+            <ul class="mobile-footer-div"> 
+              <li><a class="footer-li" href="#" target="_blank">კონტაქტი </a></li>
+              <li>
+                <a class="footer-li" href="#" target="_blank">მონაცემთა დაცვა</a>
+              </li>
+  
+              <li>
+                <a class="footer-li" href="#" target="_blank">მომხმარებლის ხმა</a>
+              </li>
+              <li>
+                <a class="footer-li" href="#" target="_blank"
+                  >ხშირად დასმული კითხვები</a
+                >
+              </li>
+             
+            </ul>
+            <div class="footer-logos">
+              <img
+                src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+                alt="app-store"
+              />
+              <img src="images/google-play-badge.png" alt="google-store" />
+            </div>
+           
+            <ul class="mobile-footer-div">
+             
+              <li>
+                <a
+                  class="footer-li"
+                  href="https://www.facebook.com/unison.ge"
+                  target="_blank"
+                  ><img
+                    src="images/f_logo_RGB-Blue_72.png"
+                    alt="fb-logo"
+                  />Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-li"
+                  href="https://www.instagram.com/unison_insurance_/?igshid=YmMyMTA2M2Y%3D"
+                  target="_blank"
+                  ><img
+                    src="images/Instagram_Glyph_Gradient_RGB.png"
+                    alt="instagram-logo"
+                  />Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-li"
+                  href="https://www.linkedin.com/company/%E1%83%A3%E1%83%9C%E1%83%98%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%98/"
+                  target="_blank"
+                  ><img src="images/linkdin.png" alt="linkdin-logo" />Linkdin</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-li"
+                  href="https://www.youtube.com/channel/UCR_zZ9WHAPc1KfAmSt1TQSQ/featured"
+                  target="_blank"
+                  ><img
+                    src="images/yt_icon_rgb.png"
+                    alt="youtube-logo"
+                  />Youtube</a
+                >
+              </li>
+            </ul>
+            <li class="footer-li last-li">
+              უნისონი & copy ყველა უფლება დაცულია, 2021
+            </li>
+          </div>
+        </div>
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
