@@ -59,6 +59,9 @@
     width: 168px !important;
     height: 113px !important;
   }
+  .top-block-title {
+    font-size: 12px!;
+  }
   .slider-img {
     object-fit: cover !important;
     width: 100%;
