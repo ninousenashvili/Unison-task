@@ -91,3 +91,7 @@ const closeBtn = document.querySelector(".fa-mark-burger");
 closeBtn.addEventListener("click", function () {
   document.querySelector(".dropdown-content").style.display = "none";
 });
+
+let date = new Date(year);
+document.querySelector(".last-li").innerHTML =
+  "უნისონი & copy ყველა უფლება დაცულია," + "" + date;
