@@ -119,3 +119,37 @@
     display: flex !important;
   }
 }
+
+/* News page responsve */
+
+@media (max-width: 1101px) {
+  .bottom-news-divs {
+    flex-direction: column !important;
+    margin-top: 0 !important;
+  }
+  .news-two-divs {
+    flex-direction: column !important;
+  }
+
+  .news-div,
+  .news-one-div,
+  .news-two-div,
+  .news-two-p {
+    margin-bottom: 21px !important;
+  }
+
+  .news-one-img,
+  .news-two-img {
+    margin-bottom: 0 !important;
+  }
+  .mobile-news-header {
+    display: block !important;
+    display: flex !important;
+  }
+  .news-line {
+    display: none !important;
+  }
+  .mobile-line {
+    display: none;
+  }
+}

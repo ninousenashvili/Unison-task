@@ -21,16 +21,47 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Document</title>
-  </head>
+
+</head>
   <body>
+
     <!-- top Navigation  -->
     <header>
       <!-- mobile navigation -->
-      <div class="mobile-header">
-        <a href="index.html">
-<img class="mobile-logo" src="images/unisonLogo.svg" alt="unisonLogo" ></a>
+      <div class="mobile-news-header ">
+     <div class="news-head-burger">
 
-  <i class="fa-solid fa-bars"></i>
+  <a href="index.html">
+  <img class="mobile-logo mobile-news-logo" src="images/Logo.svg" alt="unisonLogo" ></a>
+  <i class="fa-solid fa-bars head-news-icon">
+    
+  </i>
+     </div>
+    <div class="news-line-head">
+      <div class="title-icon">
+        <i class="fa-solid fa-volume-high head-news-icon"></i>
+    <a  class="news-line-title active-line" href="#"> სიახლეები</a>
+      </div>
+  <div class="title-icon"> 
+     <i class="fa-solid fa-volume-high head-news-icon"></i>
+    <a class="news-line-title" href="#" > ბლოგი </a>
+  </div>
+  <div class="title-icon">
+    <i class="fa-solid fa-volume-high head-news-icon"></i>
+    <a class="news-line-title" href="#" >აქცია</a>
+  </div>
+  </div>
+  <div class="new-line-bottom">
+
+          <h4 class="new-line-bottom-title"><i class="fa-solid fa-magnifying-glass news-line-icon"></i>ძიება</h4>
+          
+          <h4 class="new-line-bottom-title"><i class="fa-regular fa-calendar news-line-icon"></i>დროის პერიოდი</h4>
+  
+          
+        </div>
+
+  </div>
+  
 </div>
 <div class="burger-navigation">
   <div class="top-burger">
@@ -140,11 +171,10 @@
           <div class="about-us-left">
             <ul class="nav-ul">
               <li class="nav-li">
-                <a class="nav-li active" href="index.html">მთავარი</a>
-                
+                <a class="nav-li" href="index.html">მთავარი</a>
               </li>
               <li class="nav-li">ჩვენს შესახებ</li>
-              <li class="nav-li">
+              <li class="nav-li active">
                 <a class="nav-li" href="news.html">სიახლეები</a></li>
               <li class="nav-li">პარტნიორები</li>
               <li class="nav-li">კონტაქტი</li>
@@ -279,163 +309,97 @@
           </div>
         </div>
       </div>
-      <!-- Slider main container -->
-      <div class="swiper">
-        <div class="line"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img
-              class="slider-img"
-              src="images/shutterstock_627788162.png"
-              alt="sofa"
-            />
-          </div>
-
-          <div class="swiper-slide">
-            <!-- <div class="slider-title"></div> -->
-
-            <img
-              class="slider-img"
-              src="images/shutterstock_627788162.png"
-              alt="sofa"
-            />
-          </div>
-          <div class="swiper-slide">
-            <!-- <div class="slider-title"></div> -->
-            <img
-              class="slider-img"
-              src="images/shutterstock_627788162.png"
-              alt="sofa"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- If we need pagination -->
-      <!-- <div class="swiper-pagination"></div> -->
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-previous">
-        <i class="fa-solid fa-chevron-left"></i>
-      </div>
-      <div class="swiper-button-nextt">
-        <i class="fa-solid fa-chevron-right"></i>
-      </div>
-
-      <!-- If we need scrollbar -->
-      <!-- <div class="swiper-scrollbar"></div> -->
-      <div class="red-shape-div">
-        <div class="red-min-div">
-          <img src="images/Image 42.png" class="red-shape" alt="shape" />
-          <h2 class="red-shape-title">შეიძინე ონლაინ</h2>
-          <i class="fa-solid fa-chevron-down red-arrow"></i>
-        </div>
-      </div>
-    </header>
+     
     <!-- Body content -->
 
     <div class="container">
       <section class="section1">
         
 
-        <!-- Insurance Blocks  -->
-        <div class="top-block">
-          <div class="top-block-1">
-            <i class="fa-sharp fa-solid fa-house-chimney-window"></i>
-            <h4 class="top-block-title">ქონების დაზღვევა</h4>
-          </div>
-
-          <div class="top-block-1">
-            <i class="fa-duotone fa-shield-plus"></i>
-            <h4 class="top-block-title">ჯანმრთელობის დაზღვევა</h4>
-          </div>
-          <div class="top-block-1">
-            <i class="fa-sharp fa-solid fa-car"></i>
-            <h4 class="top-block-title">ავტოდაზღვევა</h4>
-          </div>
-
-          <div class="top-block-1">
-            <i class="fa-sharp fa-solid fa-user-check"></i>
-            <h4 class="top-block-title">პასუხისმგებლობის დაზღვევა</h4>
-          </div>
-
-          <div class="top-block-1">
-            <i class="fa-sharp fa-solid fa-plane-departure"></i>
-            <h4 class="top-block-title">სამოგზაურო დაზღვევა</h4>
-          </div>
-        
-        <div class="top-block-1 mobile-shopping">
-          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
-          <h4 class="top-block-title">შეიძინე ონლაინ</h4>
-        </div>
-      </div>
-      
-      </section>
-
-      <!-- Priorities  -->
-
-      <section class="section2">
-        <div class="mobile-sos-div">
-          
-        <button class="mobile-sos-btn">SOS</button>
-        
-        </div>
-        <div class="mobile-line-div"> <span class="mobile-line"></span></div>
-
-        <h2 class="section-title">უპირატესობები</h2>
-        <div class="bottom-block">
-          <div class="bottom-div">
-            <img src="images/people_outline_black_24dp.png" alt="people icon" />
-            <p class="bottom-title">მომხმარებლის კმაყოფილების 96%-იანი დონე</p>
-          </div>
-          <div class="bottom-div">
-            <img src="images/hotel_class_black_24dp.png" alt="star" />
-            <p class="bottom-title">მაღალრეიტინგული გადამზღვევი კომპანიები</p>
-          </div>
-          <div class="bottom-div">
-            <img src="images/touch_app_black_24dp.png" alt="click finger" />
-            <p class="bottom-title">თანამედროვე ელექტრონული სერვისები</p>
-          </div>
-          <div class="bottom-div">
-            <img src="images/timer_black_24dp.png" alt="clock" />
-            <p class="bottom-title">ზარალის დარეგულირების უმოკლესი ვადები</p>
-          </div>
-          <div class="bottom-div">
-            <img src="images/people_outline_black_24dp.png" alt="people" />
-            <p class="bottom-title">კორპორატიული კლიენტების ფართო სპექტრი</p>
-          </div>
-          <div class="bottom-div">
-            <img src="images/hotel_class_black_24dp.png" alt="stars" />
-            <p class="bottom-title">
-              გუნდის პროფესიონალიზმი და მრავალწლიანი გამოცდილება
-            </p>
-          </div>
-        </div>
-        
+    
         <div class="mobile-line-div"> <span class="mobile-line"></span></div>
 
         <!--  News blocks  -->
+        <div class="news-line">
+          <div class="news-line-left">
+          <a  class="news-line-icons active-line" href="#"> <i class="fa-regular fa-memo-pad"></i>სიახლეები</a>
+          <a class="news-line-icons" href="#" > <i class="fa-thin fa-memo-pad news-icon"></i>ბლოგი </a>
+          <a class="news-line-icons" href="#" ><i class="fa-solid fa-volume-high news-icon"></i>აქცია</a>
+        </div>
+        <div class="news-line-right">
+          <input type="search"  class="new-search" placeholder="ჩაწერეთ საძიებო სიტყვა" >
+          <i class="fa-solid fa-magnifying-glass news-icon"></i>
+          <i class="fa-regular fa-calendar news-icon"></i>
+        </div>
+        </div>
+        <hr>
 
-        <h2 class="section-title">სიახლეები</h2>
-        <div class="bottom-divs">
-          <div class="news-divs">
-            <img class="news-img" alt="house" src="images/house.png" />
-            <p class="news-p">ქალაქგარეთ ცხოვრების 10 გავრცელებული მითი</p>
-            <span class="news-span">6 ნოემბერი</span>
+
+        <div class="bottom-news-divs">
+          <div class="news-one-div">
+            <img class="news-one-img" alt="house" src="images/house.png" />
+            <p class="news-two-p">ქალაქგარეთ ცხოვრების 10 გავრცელებული მითი</p>
+            <span class="news-span news-span1">6 ნოემბერი</span>
           </div>
-          <div class="news-divs">
-            <img class="news-img" alt="food" src="images/Rectangle 27.png" />
-            <p class="news-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
-            <span class="news-span">28 ოქტომბერი</span>
-          </div>
-          <div class="news-divs">
-            <img class="news-img" alt="car" src="images/Rectangle 29.png" />
-            <p class="news-p">ავტომობილის სალონის მოვლის თანამედროვე ხერხები</p>
-            <span class="news-span">14 ოქტომბერი</span>
+          <div class="news-two-divs">
+            <div class="news-two-div">
+            <img class="news-two-img" alt="food" src="images/Rectangle 27.png" />
+            <p class="news-two-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+            <span class="news-span news-span1">28 ოქტომბერი</span>
+            </div>
+            <div class="news-two-div">
+            <img class="news-two-img" alt="car" src="images/Rectangle 29.png" />
+            <p class="news-two-p">ავტომობილის სალონის მოვლის თანამედროვე ხერხები</p>
+            <span class="news-span news-span1">14 ოქტომბერი</span>
+            </div>
           </div>
         </div>
+        <div class="bottom-news-divs">
+          <div class="news-two-divs">
+            <div class="news-two-div">
+            <img class="news-two-img" alt="snow" src="images/snow.png">
+            <p class="news-two-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+            <span class="news-span news-span1">28 ოქტომბერი</span>
+            </div>
+            <div class="news-two-div">
+            <img class="news-two-img" alt="girl" src="images/girl.png" />
+            <p class="news-two-p">ავტომობილის სალონის მოვლის თანამედროვე ხერხები</p>
+            <span class="news-span news-span1">14 ოქტომბერი</span>
+            </div>
+          </div>
+          <div class="news-one-div">
+            <img class="news-one-img" alt="computer" src="images/computer.png" />
+            <p class="news-two-p">ქალაქგარეთ ცხოვრების 10 გავრცელებული მითი</p>
+            <span class="news-span news-span1">6 ნოემბერი</span>
+          </div>
+        </div>
+          <div class="bottom-news-divs">
+            
+              <div class="news-two-div">
+              <img class="news-two-img" alt="snow" src="images/food.png">
+              <p class="news-two-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+              <span class="news-span news-span1">28 ოქტომბერი</span>
+              </div>
+              <div class="news-two-div">
+              <img class="news-two-img" alt="girl" src="images/airport.png" />
+              <p class="news-two-p">ავტომობილის სალონის მოვლის თანამედროვე ხერხები</p>
+              <span class="news-span news-span1">14 ოქტომბერი</span>
+              </div>
+              <div class="news-two-div">
+                <img class="news-two-img" alt="computer" src="images/Rectangle 854.png">
+                <p class="news-two-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+                <span class="news-span news-span1">28 ოქტომბერი</span>
+              </div>
+                <div class="news-two-div">
+                  <img class="news-two-img" alt="snow" src="images/book.png">
+                  <p class="news-two-p">ჯანსაღი კვების საიდუმლო სამხრეთ აზიიდან</p>
+                  <span class="news-span news-span1">28 ოქტომბერი</span>
+                 </div>
+            </div>
+           
+          </div>
+        </div>
+        
       </section>
     </div>
 
@@ -579,7 +543,7 @@
             
             <ul class="mobile-footer-div"> 
               <li>
-                <a class="footer-li" href="#" target="_blank">სიახლეები</a>
+                <a class="footer-li" href="news.html" target="_blank">სიახლეები</a>
               </li>
               <li>
                 <a class="footer-li" href="#" target="_blank"
@@ -673,6 +637,6 @@
       
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="news.js"></script>
   </body>
 </html>
